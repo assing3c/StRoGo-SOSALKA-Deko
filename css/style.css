@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding:0;
+}
+html,body {
+    height: 100%;
+}
+header, main, footer {
+    border: black solid 1px;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 120px;
+    width: 1040px;
+    margin:0 auto;
+}
+main{
+    padding-bottom: 100px;
+    width: 1040px;
+    margin:0 auto;
+}
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    margin:0 auto;
+        
+}
+body {
+    background-color: purple;
+    color: white;
+}
+.main_img-float{
+    width:550px;
+    
+    }
+    .main_img-float {
+        width: 550;
+        margin: 40;
+        float:left;
+
+    }
+    #panorama {
+        width:100%;
+        height: 150px;
+        background: url(../img/Deko.jpeg) no-repeat center 70%;
+        background-size: cover; /*масштаирование фона*/
+    }
